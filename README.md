@@ -1,22 +1,9 @@
 # Beauty Age Glow — Landing Page (Glow edition)
 
-Single-product, fully responsive marketing landing page for **Beauty Age Glow**, a cosmetic face cream for the daily care of mature skin. This is an **alternative design** of the Beauty Age landing (see `../landing1` for the first edition) — a different structure, colour scheme and visual style built around a new image set.
-
-Built as a static site with HTML5, CSS3 and vanilla JavaScript — no frameworks, no build tools, no backend.
-
-> **Producto cosmético.** Beauty Age Glow es un producto cosmético, no un medicamento. No está destinado a diagnosticar, tratar, curar ni prevenir ninguna enfermedad. Los resultados pueden variar.
+Single-product, fully responsive marketing landing page for **Beauty Age Glow**, a cosmetic face cream for the daily care of mature skin.
+Built as a static site with HTML5, CSS3 and vanilla JavaScript.
 
 ---
-
-## What makes this edition different
-
-| | landing1 (Skin) | landing2 (Glow) |
-|---|---|---|
-| Palette | Soft coral / ivory clean-beauty | Vibrant amber / gold "glow & vitalidad" |
-| Typography | Fraunces + Manrope | Playfair Display + Sora |
-| Hero | Product jar + model, two columns | Model cutout over paint splash, chips + price/rating |
-| Structure | Problem → product card → ingredients grid → steps → benefits → expert → testimonials → before/after → UGC | Diagnosis list → product (model + jar) → alternating ingredient rows → science cards → 3-step ritual cards → results → benefits → full-bleed expert banner → featured testimonials → CTA band → final banner |
-| Buttons | Pill, coral | Rounded, amber gradient |
 
 ## Tech stack
 
@@ -41,15 +28,6 @@ Built as a static site with HTML5, CSS3 and vanilla JavaScript — no frameworks
 
 Breakpoints at **1200px, 992px, 768px and 480px**. Desktop max-width ~1220px; two-column hero; cart drawer ~430px. Tablet collapses grids; mobile is single column, burger menu, full-width CTAs, near full-screen cart drawer, no horizontal scroll.
 
-## EU cosmetic compliance notes
-
-Copy aligns with EU cosmetics rules — **Regulation (EC) No 1223/2009** and the common claim criteria of **Regulation (EU) No 655/2013** (legal compliance, truthfulness, evidential support, honesty, fairness, informed decision-making):
-
-- No medical/therapeutic claims; cautious cosmetic wording only.
-- No exaggerated claims, no fake countdowns, fake stock pressure or fake medical endorsements.
-- Before/after content labelled *"Imágenes ilustrativas. Los resultados pueden variar."*
-- Disclaimer present in footer and FAQ.
-
 > **Important:** Marketing claims, legal texts and privacy copy are generic placeholders and **must be reviewed and adapted by the business owner or a legal advisor** before publication. Company data, address, email, NIF/CIF, VAT and DPO details are placeholders to be replaced.
 
 ## Folder structure
@@ -64,14 +42,16 @@ landing2/
 ├── CHANGELOG.md
 └── DELIVERY.md
 ```
-
-## Image note
-
-The new image set provided does not include a product-packaging shot, so the product visual in the cart/product card reuses the same Beauty Age jar (`product.webp`) — it is the same cosmetic product, presented with a different landing design. All other imagery is from the new set.
-
 ## Deployment
 
-Fully static. Deploy by uploading the `landing2/` contents to any web server or static host: Apache / Nginx, Netlify, Vercel, GitHub Pages, Cloudflare Pages, or any CDN. No backend, database or build pipeline. Runs locally by opening `index.html`.
+The project is fully static. Deploy by uploading the project root to any web server or static host:
+Apache / Nginx (shared or VPS hosting)
+Netlify, Vercel, GitHub Pages, Cloudflare Pages
+Any CDN-based static distribution
+No backend, database or build pipeline is required.
+
+## Source code / repository note
+The production source code can be kept in a private repository and shared directly with the client if needed, while a public repository holds only the delivery documentation (README.md, CHANGELOG.md, DELIVERY.md) and visual proof of delivery.
 
 ## License
 
