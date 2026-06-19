@@ -1,4 +1,4 @@
-# Beauty Age Glow — Landing Page (Glow edition)
+# Beauty Age Landing Page 2
 
 Single-product, fully responsive marketing landing page for **Beauty Age Glow**, a cosmetic face cream for the daily care of mature skin.
 Built as a static site with HTML5, CSS3 and vanilla JavaScript.
